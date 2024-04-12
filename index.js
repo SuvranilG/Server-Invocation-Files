@@ -28,7 +28,7 @@ function fetchData(apiUrl) {
   apiEndpoints.forEach(fetchData);
   
   // Fetch data every 14 minutes (14 minutes * 60 seconds * 1000 milliseconds)
-  const intervalInMilliseconds = 1 * 60 * 1000;
+  const intervalInMilliseconds = 14 * 60 * 1000;
   setInterval(() => {
     apiEndpoints.forEach(fetchData);
     console.log('Invoked API endpoint ');
