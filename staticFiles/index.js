@@ -14,7 +14,7 @@ function fetchData(apiUrl) {
   // Define your API endpoints
   const apiEndpoints = [
     'https://freelancerwebapp.onrender.com',
-    'https://backend-ogreenery.onrender.com',
+    // 'https://backend-ogreenery.onrender.com',
     'https://codexwebapp.onrender.com',
     // Add more API endpoints as needed
   ];
